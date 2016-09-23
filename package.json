@@ -1,0 +1,54 @@
+{
+  "name": "docpad-plugin-asciidoc",
+  "version": "2.0.0",
+  "description": "DocPad plugin that adds the ability to render asciidoc files to HTML",
+  "homepage": "https://github.com/fboulay/docpad-plugin-asciidoc",
+  "license": "MIT",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "asciidoc"
+  ],
+  "badges": {
+    "list": [
+      "npmversion",
+      "npmdownloads"
+    ]
+  },
+  "author": "2016 Florian Boulay <florian.boulay@gmail.com> (http://boulay.eu)",
+  "maintainers": [
+    "Florian Boulay <florian.boulay@gmail.com> (http://boulay.eu)"
+  ],
+  "contributors": [
+    "fboulay (https://github.com/fboulay)"
+  ],
+  "bugs": {
+    "url": "https://github.com/fboulay/docpad-plugin-asciidoc/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fboulay/docpad-plugin-asciidoc.git"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3"
+  },
+  "peerDependencies": {
+    "docpad": "4"
+  },
+  "dependencies": {
+    "asciidoctor.js": "~1.5.5-2"
+  },
+  "devDependencies": {
+    "docpad": "6",
+    "coffee-script": "~1.10.0",
+    "projectz": "~1.2.0"
+  },
+  "main": "./out/asciidoc.plugin.js",
+  "scripts": {
+    "test": "node ./out/asciidoc.test.js"
+  },
+  "cakeConfiguration": {
+    "COFFEE_SRC_PATH": "src"
+  }
+}
