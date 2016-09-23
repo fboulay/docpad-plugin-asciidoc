@@ -1,4 +1,4 @@
-# YourPluginName Plugin for [DocPad](http://docpad.org)
+# Asciidoc Plugin for [DocPad](http://docpad.org)
 
 <!-- BADGES/ -->
 
@@ -8,10 +8,9 @@
 <!-- /BADGES -->
 
 
-Uppercase your text document's content by adding either the `uc` or `uppercase` extension to it
+Transform you asciidoc content by adding either the `adoc` extension to it
 
-Convention:  `.txt.(uc|uppercase)`
-
+Convention:  `.html.adoc`
 
 
 <!-- INSTALL/ -->

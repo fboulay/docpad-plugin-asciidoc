@@ -35,7 +35,7 @@
     "npm": ">=3"
   },
   "peerDependencies": {
-    "docpad": "4"
+    "docpad": "6"
   },
   "dependencies": {
     "asciidoctor.js": "~1.5.5-2"
