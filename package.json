@@ -31,8 +31,8 @@
     "url": "https://github.com/fboulay/docpad-plugin-asciidoc.git"
   },
   "engines": {
-    "node": ">=6",
-    "npm": ">=3"
+    "node": ">=4",
+    "npm": ">=2"
   },
   "peerDependencies": {
     "docpad": "6"

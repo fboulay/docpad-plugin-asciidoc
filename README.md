@@ -2,6 +2,7 @@
 
 <!-- BADGES/ -->
 
+<span class="badge-travisci"><a href="http://travis-ci.org/fboulay/docpad-plugin-asciidoc" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/fboulay/docpad-plugin-asciidoc/master.svg" alt="Travis CI Build Status" /></a></span>
 <span class="badge-npmversion"><a href="https://npmjs.org/package/docpad-plugin-asciidoc" title="View this project on NPM"><img src="https://img.shields.io/npm/v/docpad-plugin-asciidoc.svg" alt="NPM version" /></a></span>
 <span class="badge-npmdownloads"><a href="https://npmjs.org/package/docpad-plugin-asciidoc" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/docpad-plugin-asciidoc.svg" alt="NPM downloads" /></a></span>
 
