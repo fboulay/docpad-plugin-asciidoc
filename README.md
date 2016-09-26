@@ -5,8 +5,9 @@
 <span class="badge-travisci"><a href="http://travis-ci.org/fboulay/docpad-plugin-asciidoc" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/fboulay/docpad-plugin-asciidoc/master.svg" alt="Travis CI Build Status" /></a></span>
 <span class="badge-npmversion"><a href="https://npmjs.org/package/docpad-plugin-asciidoc" title="View this project on NPM"><img src="https://img.shields.io/npm/v/docpad-plugin-asciidoc.svg" alt="NPM version" /></a></span>
 <span class="badge-npmdownloads"><a href="https://npmjs.org/package/docpad-plugin-asciidoc" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/docpad-plugin-asciidoc.svg" alt="NPM downloads" /></a></span>
-<span class="badge-daviddm"><a href="https://david-dm.org/fboulay/docpad-plugin-asciidoc" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/fboulay/docpad-plugin-asciidoc.svg" alt="Dependency Status" /></a></span>
-<span class="badge-daviddmdev"><a href="https://david-dm.org/fboulay/docpad-plugin-asciidoc#info=devDependencies" title="View the status of this project's development dependencies on DavidDM"><img src="https://img.shields.io/david/dev/fboulay/docpad-plugin-asciidoc.svg" alt="Dev Dependency Status" /></a></span>
+<span class="badge-daviddm"><a href="https://david-dm.org/fboulay/docpad-plugin-asciidoc" title="View the status of this project's dependencies on DavidDM"><img src="https://david-dm.org/fboulay/docpad-plugin-asciidoc/status.svg" alt="Dependency Status" /></a></span>
+<span class="badge-daviddmdev"><a href="https://david-dm.org/fboulay/docpad-plugin-asciidoc?type=dev" title="View the status of this project's development dependencies on DavidDM"><img src="https://david-dm.org/fboulay/docpad-plugin-asciidoc/dev-status.svg" alt="Dev Dependency Status" /></a></span>
+<span class="badge-daviddmpeer"><a href="https://david-dm.org/fboulay/docpad-plugin-asciidoc?type=peer" title="View the status of this project's peer dependencies on DavidDM"><img src="https://david-dm.org/fboulay/docpad-plugin-asciidoc/peer-status.svg" alt="Peer Dependency Status" /></a></span>
 
 <!-- /BADGES -->
 
