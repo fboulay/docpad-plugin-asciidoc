@@ -7,8 +7,7 @@ module.exports = (BasePlugin) ->
 
 		# Plugin configuration
 		config:
-			asciidocOptions:
-				extensions: false
+			enableExtensions: false
 
 		# Render
 		# Called per document, for each extension conversion. Used to render one extension to another.
@@ -18,10 +17,9 @@ module.exports = (BasePlugin) ->
 
 			if inExtension in ['adoc' ] and outExtension in ['html',null]
 				asciidoctor = require('asciidoctor.js')()
-				# opal = asciidoctor.Opal
 
 				processor = null
-				useExtensions = @config.asciidocOptions.extensions
+				useExtensions = @config.enableExtensions
 				if useExtensions
 				  processor = asciidoctor.Asciidoctor(true)
 				else

@@ -22,6 +22,17 @@ Install this DocPad plugin by entering <code>docpad install asciidoc</code> into
 
 <!-- /INSTALL -->
 
+## Configure
+
+### Defaults
+
+The default configuration for this plugin is the equivalent of adding the following configuration to your [DocPad configuration file](http://docpad.org/docs/config):
+
+``` coffee
+  plugins:
+  	asciidoc:
+  		enableExtensions: false
+```
 
 <!-- HISTORY/ -->
 
