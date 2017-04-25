@@ -16,16 +16,9 @@ module.exports = (BasePlugin) ->
 			{inExtension,outExtension} = opts
 
 			if inExtension in ['adoc' ] and outExtension in ['html',null]
-				asciidoctor = require('asciidoctor.js')()
-
-				processor = null
-				useExtensions = @config.enableExtensions
-				if useExtensions
-				  processor = asciidoctor.Asciidoctor(true)
-				else
-				  processor = asciidoctor.Asciidoctor()
+				processor = require('asciidoctor.js')()
 
 				# Render synchronously
-				opts.content = processor.$convert(opts.content)
+				opts.content = processor.convert(opts.content)
 			# Done
 			return

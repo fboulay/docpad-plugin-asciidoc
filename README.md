@@ -25,6 +25,7 @@ Install this DocPad plugin by entering <code>docpad install asciidoc</code> into
 
 <!-- /INSTALL -->
 
+
 ## Configure
 
 ### Defaults
@@ -33,8 +34,7 @@ The default configuration for this plugin is the equivalent of adding the follow
 
 ``` coffee
   plugins:
-  	asciidoc:
-  		enableExtensions: false
+  	asciidoc
 ```
 
 <!-- HISTORY/ -->

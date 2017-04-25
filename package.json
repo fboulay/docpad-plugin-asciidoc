@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-asciidoc",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "DocPad plugin that adds the ability to render asciidoc files to HTML",
   "homepage": "https://github.com/fboulay/docpad-plugin-asciidoc",
   "license": "MIT",
@@ -40,7 +40,7 @@
     "docpad": "6"
   },
   "dependencies": {
-    "asciidoctor.js": "~1.5.5-2"
+    "asciidoctor.js": "1.5.5-5"
   },
   "devDependencies": {
     "docpad": "6",
